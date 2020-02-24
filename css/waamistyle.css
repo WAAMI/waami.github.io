@@ -1,0 +1,27 @@
+p {
+  font-size: 17px;
+} 
+
+h2 {
+  color:darkblue;
+}
+        
+h3 {
+  color:darkblue;
+}
+
+td {
+  text-align: center; 
+}
+
+ul {
+  font-size: 17px;
+}
+        
+ol {
+  font-size: 17px;
+} 
+
+html {
+    padding : 25px;
+} 
