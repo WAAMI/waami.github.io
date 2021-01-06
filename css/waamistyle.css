@@ -30,7 +30,7 @@ table.tableizer-table {
 	    font-size: 14px;
 	    margin-left: auto;
   		margin-right: auto;
-        border: 1px solid #CCC; 
+      border: 1px solid #CCC; 
     } 
     .tableizer-table td {
         padding: 10px;
@@ -52,3 +52,66 @@ table.tableizer-table {
         font-weight: bold;
         border: 1px solid #CCC;
     }
+
+.flexWrap {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 90%;
+  
+}
+
+.flexCol {
+  padding: 10px;
+  width: 20%;
+  margin:auto;
+  text-align:left;
+}
+
+.flexCol img {
+  width: 160px;
+  height: 220px;
+  display: block;
+}
+
+.flexCol2 {
+  padding: 10px;
+  width: 20%;
+  margin:auto;
+  text-align:left;
+  display: none;
+}
+
+.org-name {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+.org-affiliation {
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+.center-img {
+  width: 160px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .flexWrap { flex-wrap: wrap; }
+  .flexCol { width: 33.3%; }
+  .flexCol2 { width: 33.3%; display: inline; }
+}
+
+@media only screen and (max-width: 768px) {
+  .flexWrap { flex-wrap: wrap; }
+  .flexCol { width: 50%; }
+  .flexCol2 { width: 50%; display: inline; }
+}
