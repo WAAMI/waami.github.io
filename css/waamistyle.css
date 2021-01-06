@@ -112,6 +112,6 @@ table.tableizer-table {
 
 @media only screen and (max-width: 768px) {
   .flexWrap { flex-wrap: wrap; }
-  .flexCol { width: 50%; }
-  .flexCol2 { width: 50%; display: inline; }
+  .flexCol { width: 100%; }
+  .flexCol2 { width: 100%; display: none; }
 }
