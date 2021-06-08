@@ -104,6 +104,12 @@ table.tableizer-table {
   margin-right: auto;
 }
 
+ul:before{
+    content:attr(data-header);
+    font-style: italic;
+    margin-left:-15px;
+}
+
 @media screen and (max-width: 1000px) {
   .flexWrap { flex-wrap: wrap; }
   .flexCol { width: 33.3%; }
