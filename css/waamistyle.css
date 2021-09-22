@@ -53,6 +53,13 @@ table.tableizer-table {
         border: 1px solid #CCC;
     }
 
+    .tableizer-table td.time {
+      padding: 10px;
+        margin: 10px;
+        text-align: right;
+        border: 1px solid #CCC;
+  }
+
 .flexWrap {
   display: flex;
   margin-left: auto;
