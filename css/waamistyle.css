@@ -86,8 +86,10 @@ table.tableizer-table {
   padding: 10px;
   width: 20%;
   margin:auto;
-  text-align:left;
-  display: none;
+  text-align:center;
+  display: block;
+  width: 200px;
+  height: 350px;
 }
 
 .org-name {
@@ -107,6 +109,13 @@ table.tableizer-table {
 .center-img {
   width: 160px;
   height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-img2 {
+  width: 180px;
+  height: 220px;
   margin-left: auto;
   margin-right: auto;
 }
