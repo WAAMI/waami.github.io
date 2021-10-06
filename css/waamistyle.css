@@ -88,7 +88,7 @@ table.tableizer-table {
   margin:auto;
   text-align:center;
   display: block;
-  width: 200px;
+  width: 180px;
   height: 350px;
 }
 
@@ -115,7 +115,7 @@ table.tableizer-table {
 
 .center-img2 {
   width: 180px;
-  height: 220px;
+  height: 350px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,7 +128,7 @@ ul:before{
 
 @media screen and (max-width: 1000px) {
   .flexWrap { flex-wrap: wrap; }
-  .flexCol { width: 33.3%; }
+  .flexCol { width: 33.3%;}
   .flexCol2 { width: 33.3%;}
 }
 
