@@ -129,11 +129,11 @@ ul:before{
 @media screen and (max-width: 1000px) {
   .flexWrap { flex-wrap: wrap; }
   .flexCol { width: 33.3%; }
-  .flexCol2 { width: 33.3%; display: inline; }
+  .flexCol2 { width: 33.3%;}
 }
 
 @media only screen and (max-width: 768px) {
   .flexWrap { flex-wrap: wrap; }
   .flexCol { width: 100%; }
-  .flexCol2 { width: 100%; display: none; }
+  .flexCol2 { width: 100%; }
 }
