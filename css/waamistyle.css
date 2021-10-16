@@ -60,13 +60,51 @@ table.tableizer-table {
         border: 1px solid #CCC;
   }
 
+table.tableizer-tableKeynote {
+      font-size: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    } 
+    .tableizer-tableKeynote td {
+        padding: 10px;
+        margin: 10px;
+        text-align: left;
+    }
+    .tableizer-tableKeynote th {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
 .flexWrap {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   width: 90%;
-  
+}
+
+.flexWrapKeynote {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 95%;
+}
+
+.flexWrapImgAff {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.flexWrapTitleAbst {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .flexCol {
@@ -120,6 +158,14 @@ table.tableizer-table {
   margin-right: auto;
 }
 
+.center-imgKeynote {
+  width: 180px;
+  height: 380px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul:before{
     content:attr(data-header);
     font-style: italic;
@@ -130,10 +176,15 @@ ul:before{
   .flexWrap { flex-wrap: wrap; }
   .flexCol { width: 33.3%;}
   .flexCol2 { width: 33.3%;}
+  .flexWrapImgAff { width: 33.3%; }
+  .flexWrapTitleAbst { width: 64%; }
 }
 
 @media only screen and (max-width: 768px) {
   .flexWrap { flex-wrap: wrap; }
+  .flexWrapKeynote { flex-wrap: wrap; }
   .flexCol { width: 100%; }
   .flexCol2 { width: 100%; }
+  .flexWrapImgAff { width: 100%; }
+  .flexWrapTitleAbst { width: 100%; }
 }
